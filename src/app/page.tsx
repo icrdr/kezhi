@@ -27,10 +27,6 @@ export default function Home() {
         subtitle={PAGE_CONTENT.concept.alias[0]}
       />
       <Paragraph content={PAGE_CONTENT.concept.description} />
-      <Columns sizes="1/3 2/3">
-        <Frame />
-        <Frame />
-      </Columns>
       <Paragraph content="一级关联" />
       <Paragraph content="参考文献" />
     </main>

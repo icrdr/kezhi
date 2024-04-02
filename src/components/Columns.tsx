@@ -5,7 +5,7 @@ const Columns = ({
   sizes,
 }: {
   children: React.ReactNode;
-  sizes: Array<number>;
+  sizes: string;
 }) => {
   const child_components = React.Children.toArray(children);
   // const column_count = sizes.reduce((partialSum, a) => partialSum + a, 0);

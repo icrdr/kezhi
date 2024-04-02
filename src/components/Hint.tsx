@@ -21,7 +21,7 @@ const Hint = ({ text }: { text: string }) => {
         </div>
         <div className="p-4 w-64 space-y-2 text-center">
           <div className="text-lg font-bold">{text}</div>
-          <div className="text-xs">{CONCEPTS[text]?.description}</div>
+          <div className="text-xs">{CONCEPTS[text as keyof typeof CONCEPTS]?.description}</div>
         </div>
       </div>
     </span>

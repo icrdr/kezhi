@@ -1,7 +1,7 @@
 import React from "react";
 import ReferenceCard, { reference } from "@/components/ReferenceCard";
 
-const ReferenceList = ({ references }: { references: [reference] }) => {
+const ReferenceList = ({ references }: { references: reference[] }) => {
   return (
     <div className="space-y-4">
       <div className="font-serif text-3xl font-black">参考资料</div>
