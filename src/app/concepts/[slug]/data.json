@@ -1,0 +1,29 @@
+{
+  "concept": {
+    "name": "上肢骨连结 - 肘关节",
+    "alias": ["articulations - elbow joint"],
+    "description": "由{肱骨}远侧端，{桡骨}和{尺骨}近端关节面组成。在结构上包括三个关节，它们共同被包在一个{关节囊}内。"
+  },
+  "records": [
+    {
+      "name": "肘关节",
+      "description": "",
+      "source": []
+    }
+  ],
+  "concepts": ["肱骨", "尺骨", "桡骨"],
+  "references": [
+    {
+      "name": "《系统解剖学第2版》人民卫生出版社 2010年",
+      "source": ""
+    },
+    {
+      "name": "《局部解剖学第9版》人民卫生出版社 2018年",
+      "source": ""
+    },
+    {
+      "name": "《Thieme Atlas of Anatomy Head and Neuroanatomy》",
+      "source": ""
+    }
+  ]
+}
